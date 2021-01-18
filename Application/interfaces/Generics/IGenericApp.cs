@@ -8,7 +8,7 @@ namespace ApplicationApp.interfaces.Generics
         Task Add(T Objeto);
         Task Update(T Objeto);
         Task Delete(T Objeto);
-        Task<T> GetEntityById(int id);
+        Task<T> GetEntityById(int? id);
         Task<List<T>> List();
 
     }

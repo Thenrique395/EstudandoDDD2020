@@ -64,11 +64,11 @@ namespace Infrastruture.Repository.Generics
             }
         }
 
-        public async Task<T> GetEntityById(int id)
+        public async Task<T> GetEntityById(int? id)
         {
             using (var data = new Context(_OptionsBuilder))
             {
-                return await data.Set<T>().FindAsync(id);
+                return await data.Set<T>().FindAsync((int)id);
             }
         }
 

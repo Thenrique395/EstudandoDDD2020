@@ -18,11 +18,10 @@ namespace Web_DDDD_20.Controllers
 
         public async Task<IActionResult> Index()
         {
-
             return View(await _productApp.List());
         }
 
-        public async Task<IActionResult> Datails(int? id)
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
@@ -43,7 +42,7 @@ namespace Web_DDDD_20.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Preco,Ativo,Id,Nome")] Product product)
+        public async Task<IActionResult> Create([Bind("Preco,Ativo,Nome")] Product product)
         {
             if (ModelState.IsValid)
             {
@@ -72,7 +71,7 @@ namespace Web_DDDD_20.Controllers
 
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id != null)
+            if (id == null)
             {
                 return NotFound();
             }
@@ -140,10 +139,8 @@ namespace Web_DDDD_20.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-
             var product = await _productApp.GetEntityById(id);
             await _productApp.Delete(product);
-
             return RedirectToAction(nameof(Index));
         }
 

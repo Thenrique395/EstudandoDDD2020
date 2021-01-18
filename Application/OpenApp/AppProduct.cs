@@ -25,9 +25,9 @@ namespace ApplicationApp.OpenApp
             await _Product.Delete(Objeto);
         }
 
-        public async Task<Product> GetEntityById(int id)
+        public async Task<Product> GetEntityById(int? id)
         {
-            return await _Product.GetEntityById(id);
+            return await _Product.GetEntityById((int)id);
         }
 
         public async Task<List<Product>> List()

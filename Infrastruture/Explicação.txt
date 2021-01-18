@@ -1,0 +1,6 @@
+
+Projeto : Infra
+* Projeto que tem como objetivo acessar executar comandos no banco de dados
+*Criaremos a pasta Configuration onde ficará o contexto que faz a conexao com o banco de dados
+*Criaremos a pasta Repository que ficará todo o repositório de métodos genéricos e métodos que
+serão responsáveis por acessar e executar comandos no banco de dados.

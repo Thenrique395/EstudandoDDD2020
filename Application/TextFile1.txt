@@ -1,0 +1,4 @@
+﻿
+Projeto : Presentation
+* Projeto tem omo objetivo ter a interface que o usuário vai fazer toda interação.
+* Criaremos o projeto Web consumindo o projeto Application com métodos Disponíveis.

@@ -1,0 +1,6 @@
+
+Projeto : Domain
+* projeto que tem como objetivo de guardar toda a regra de negocio/ persistência de dados/ interfaces
+do projeto
+* Criaremos a pasta interfaces que ficara todas as interfaces do projeto
+* Criaremos a pasta Services que ficaram todos os serviços disponíveis de cada objeto.

@@ -1,0 +1,352 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Web_DDDD_20\\Web_DDDD_20.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Application\\ApplicationApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Application\\ApplicationApp.csproj",
+        "projectName": "ApplicationApp",
+        "projectPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Application\\ApplicationApp.csproj",
+        "packagesPath": "C:\\Users\\thenr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thenr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\thenr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thenr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\thenr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thenr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Infrastruture\\Infrastruture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Infrastruture\\Infrastruture.csproj",
+        "projectName": "Infrastruture",
+        "projectPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Infrastruture\\Infrastruture.csproj",
+        "packagesPath": "C:\\Users\\thenr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Infrastruture\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thenr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Web_DDDD_20\\Web_DDDD_20.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Web_DDDD_20\\Web_DDDD_20.csproj",
+        "projectName": "Web_DDDD_20",
+        "projectPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Web_DDDD_20\\Web_DDDD_20.csproj",
+        "packagesPath": "C:\\Users\\thenr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Web_DDDD_20\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thenr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Application\\ApplicationApp.csproj": {
+                "projectPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Application\\ApplicationApp.csproj"
+              },
+              "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Infrastruture\\Infrastruture.csproj": {
+                "projectPath": "C:\\Users\\thenr\\OneDrive\\Área de Trabalho\\EstudandoDDD\\Infrastruture\\Infrastruture.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

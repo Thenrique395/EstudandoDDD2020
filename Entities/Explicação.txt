@@ -1,0 +1,4 @@
+
+Projeto : Entities
+Tem como responsabilidade criar todos os arquivos que vai ser mapeado para o banco de dados
+e arquivos de notificações

@@ -1,0 +1,17 @@
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\bin\Debug\netcoreapp3.1\Infrastruture.deps.json
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\bin\Debug\netcoreapp3.1\Infrastruture.dll
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\bin\Debug\netcoreapp3.1\Infrastruture.pdb
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\obj\Debug\netcoreapp3.1\Infrastruture.csprojAssemblyReference.cache
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\obj\Debug\netcoreapp3.1\Infrastruture.AssemblyInfoInputs.cache
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\obj\Debug\netcoreapp3.1\Infrastruture.AssemblyInfo.cs
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\obj\Debug\netcoreapp3.1\Infrastruture.csproj.CopyComplete
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\obj\Debug\netcoreapp3.1\Infrastruture.dll
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\obj\Debug\netcoreapp3.1\Infrastruture.pdb
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\bin\Debug\netcoreapp3.1\Infrastruture.runtimeconfig.json
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\bin\Debug\netcoreapp3.1\Infrastruture.runtimeconfig.dev.json
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\obj\Debug\netcoreapp3.1\Infrastruture.csproj.CoreCompileInputs.cache
+C:\Users\thenr\OneDrive\Área de Trabalho\EstudandoDDD\Infrastruture\obj\Debug\netcoreapp3.1\Infrastruture.genruntimeconfig.cache

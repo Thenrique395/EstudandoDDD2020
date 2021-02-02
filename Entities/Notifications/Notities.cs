@@ -23,13 +23,12 @@ namespace Entities.Notifications
                 notitycoes.Add(new Notities
                 {
                     Mensagem = "Campo Obrigatório",
-                    NomePropriedade = "NomePropriedade"
+                    NomePropriedade = nomePropriedade
                 });
                 return false;
             }
             return true;
         }
-
 
         public bool ValidarPropriedadeInt(int valor, string nomePropriedade)
         {
@@ -37,8 +36,22 @@ namespace Entities.Notifications
             {
                 notitycoes.Add(new Notities
                 {
-                    Mensagem = "Campo Obrigatório",
-                    NomePropriedade = "NomePropriedade"
+                    Mensagem = "Valor deve ser maior que 0",
+                    NomePropriedade = nomePropriedade
+                });
+                return false;
+            }
+            return true;
+        }
+
+        public bool ValidarPropriedadeDecimal(decimal valor, string nomePropriedade)
+        {
+            if (valor < 1 || string.IsNullOrWhiteSpace(nomePropriedade))
+            {
+                notitycoes.Add(new Notities
+                {
+                    Mensagem = "Valor deve ser maior que 0",
+                    NomePropriedade = nomePropriedade
                 });
                 return false;
             }

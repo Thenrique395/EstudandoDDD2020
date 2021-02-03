@@ -10,7 +10,7 @@ namespace Infrastruture.Configuration
         public DbSet<Product> Products { get; set; }
         public Context(DbContextOptions<Context> options) : base(options)
         {
-            Database.EnsureCreated();
+            //Database.EnsureCreated();
         }
 
 
@@ -26,7 +26,7 @@ namespace Infrastruture.Configuration
 
         private string GetStringConectionCofig()
         {
-            string strCon = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BaseDDD;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string strCon = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BaseDDD_Migration;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             return strCon;
         }
     }

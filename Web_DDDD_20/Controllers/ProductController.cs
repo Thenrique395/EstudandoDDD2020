@@ -2,11 +2,11 @@
 using Entities.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Web_DDDD_20.Controllers
 {
-
     public class ProductController : Controller
     {
         private readonly IProductApp _productApp;
@@ -18,11 +18,10 @@ namespace Web_DDDD_20.Controllers
 
         public async Task<IActionResult> Index()
         {
-
             return View(await _productApp.List());
         }
 
-        public async Task<IActionResult> Datails(int? id)
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
@@ -43,14 +42,22 @@ namespace Web_DDDD_20.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Preco,Ativo,Id,Nome")] Product product)
+        public async Task<IActionResult> Create([Bind("Preco,Ativo,Nome")] Product product)
         {
             if (ModelState.IsValid)
             {
-                await _productApp.Add(product);
-                return RedirectToAction(nameof(Index));
+                await _productApp.AddProduct(product);
+                if (product.notitycoes.Any())
+                {
+                    foreach (var item in product.notitycoes)
+                    {
+                        ModelState.AddModelError(item.NomePropriedade, item.Mensagem);
+                    }
+                    return View("Create", product);
+                }
             }
-            return View(product);
+            return RedirectToAction(nameof(Index));
+
         }
 
         public async Task<IActionResult> GetById(int? id)
@@ -62,7 +69,6 @@ namespace Web_DDDD_20.Controllers
 
             var product = await _productApp.GetEntityById((int)id);
 
-
             if (product == null)
             {
                 return NotFound();
@@ -72,7 +78,7 @@ namespace Web_DDDD_20.Controllers
 
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id != null)
+            if (id == null)
             {
                 return NotFound();
             }
@@ -100,25 +106,31 @@ namespace Web_DDDD_20.Controllers
             {
                 try
                 {
-                    await _productApp.Update(product);
-                    return RedirectToAction(nameof(Index));
+                    await _productApp.UpdateProduct(product);
+                    if (product.notitycoes.Any())
+                    {
+                        foreach (var item in product.notitycoes)
+                        {
+                            ModelState.AddModelError(item.NomePropriedade, item.Mensagem);
+                        }
+                        return View("Edit", product);
+                    }
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (! await ProductExists((int) product.Id))
+                    if (!await ProductExists((int)product.Id))
                     {
                         return NotFound();
-
                     }
                     else
                     {
                         throw;
                     }
                 }
-
             }
             return View(product);
         }
+
 
         public async Task<IActionResult> Delete(int? id)
         {
@@ -140,15 +152,14 @@ namespace Web_DDDD_20.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-
             var product = await _productApp.GetEntityById(id);
             await _productApp.Delete(product);
-
             return RedirectToAction(nameof(Index));
         }
 
-        private async Task<bool> ProductExists(int id) {
-         var product =    await _productApp.GetEntityById(id);
+        private async Task<bool> ProductExists(int id)
+        {
+            var product = await _productApp.GetEntityById(id);
             if (product == null)
             {
                 return false;

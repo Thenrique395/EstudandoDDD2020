@@ -4,10 +4,12 @@ using Domain.interfaces.generics;
 using Domain.interfaces.interfaceProduct;
 using Domain.interfaces.interfaceServices;
 using Domain.Services;
+using Infrastruture.Configuration;
 using Infrastruture.Repository.Generics;
 using Infrastruture.Repository.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -28,9 +30,11 @@ namespace Web_DDDD_20
         {
             services.AddSingleton(typeof(IGeneric<>), typeof(GenericRepository<>));
             services.AddSingleton<IProduct, RepositoryProduct>();
-            services.AddSingleton<IProductApp, AppProduct>();   
+            services.AddSingleton<IProductApp, AppProduct>();
             services.AddSingleton<IServiceProduct, ServiceProduct>();
 
+
+            services.AddDbContext<Context>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddControllersWithViews();
         }
